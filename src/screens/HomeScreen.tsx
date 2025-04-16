@@ -126,7 +126,7 @@ const HomeScreen = () => {
 
       loadData();
 
-      // Configura o listener apenas uma vez
+      
       if (isActive) {
         updateListener = DeviceEventEmitter.addListener('updateHome', () => {
           carregarDados();
