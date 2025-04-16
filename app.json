@@ -1,28 +1,36 @@
 {
   "expo": {
     "name": "ReciclApp",
-    "slug": "ReciclApp",
+    "slug": "reciclaapp",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/icon-fixed.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash-fixed.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
+      "backgroundColor": "#95FF93"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptive-icon-fixed.png",
+        "backgroundColor": "#00000000"
+      },
+      "package": "com.murilo11.reciclaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5737a1f0-da10-49c9-992e-d31aa9661ba6"
+      }
+    },
+    "owner": "murilo11",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5737a1f0-da10-49c9-992e-d31aa9661ba6"
+    },
+    "ios": {}
   }
 }
